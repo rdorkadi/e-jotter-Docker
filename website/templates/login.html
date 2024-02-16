@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+<!-- Signup Form -->
+<form method="post">
+    <h3 align="center"> Login </h3>
+
+    <!-- For email address -->
+    <div class="form-group">
+        <label for="email">
+            Email Address
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+    </div>
+    <br>
+    <!-- for password -->
+    <div class="form-group">
+        <label for="password1">
+            Password
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="password" class="form-control" id="password1" name="password" placeholder="Password">
+    </div>
+
+    <div class="form-group">
+        <label for="email">
+            OTP Code (6 digit code from Authenticator App)
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="number" class="form-control" id="token" name="token" placeholder="XXXXXX">
+    </div>
+
+<br>
+
+
+<form method="POST"> <!-- Sends POST request to flask server -->
+    <!-- {{ recaptcha }} Refer to 'recaptcha' variable in main.py -->
+    <button type="submit" class="btn btn-primary"> Login </button>
+</form>
+
+<!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld4ED0lAAAAAG71-spXDfk2N6HmybuG8RxxXPFh"></script>
+<form action="?" method="POST">
+              <div class="g-recaptcha" data-sitekey="6Ld4ED0lAAAAAG71-spXDfk2N6HmybuG8RxxXPFh" data-action="LOGIN"></div>
+              <br/>
+              <input type="submit" value="Submit">
+            </form> -->
+
+<!-- For reCapcha--> 
+<!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld4ED0lAAAAAG71-spXDfk2N6HmybuG8RxxXPFh"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6Ld4ED0lAAAAAG71-spXDfk2N6HmybuG8RxxXPFh', {action: 'login'}).then(function(token) {
+
+    });
+});
+</script> -->
+<br>
+<a href="/sign-up" id="signUp">New User? Signup here</a>
+</form>
+
+
+{% endblock %}

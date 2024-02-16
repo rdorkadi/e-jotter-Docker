@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %} Sign Up {% endblock %}
+
+{% block content %}
+<!-- Signup Form -->
+<form method="post">
+    <h3 align="center"> Sign Up </h3>
+
+    <!-- For email address -->
+    <div class="form-group">
+        <label for="email">
+            Email Address
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+    </div>
+    <br>
+    <!-- For first name -->
+    <div class="form-group">
+        <label for="firstName">
+            First Name
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+        <ul>
+            <li class="text-muted">First Name must be atleast 4 characters long.</li>
+            <li class="text-muted">First Name CANNOT start with a number or special characters.</li>
+        </ul>
+    </div>
+    <!-- for password -->
+    <div class="form-group">
+        <label for="password1">
+            Password
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="password" class="form-control" id="password1" name="password1" placeholder="Password">
+        <ul>
+            <li class="text-muted">Password must be atleast 8 characters long.</li>
+            <li class="text-muted">Password must contain atleast 1 UpperCase alphabet.</li>
+            <li class="text-muted">Password must contain atleast 1 lowerCase alphabet.</li>
+            <li class="text-muted">Password must contain atleast 1 special characters(eg:#,@,$,%,&,*etc).</li>
+        </ul>
+    </div>
+    <!-- confirm password -->
+    <div class="form-group">
+        <label for="password2">
+            Confirm Password
+        </label>
+        <!-- "name=" is what we get the value from user and pass to backend-->
+        <input type="password" class="form-control" id="password2" name="password2" placeholder="Confirm Password">
+    </div>
+<br>
+<!-- submit button-->
+<button type="submit" class="btn btn-primary"> Submit </button>
+
+<br>
+<a href="/login" id="login">Already have an account? Login here</a>
+
+</form>
+
+
+{% endblock %}

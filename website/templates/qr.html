@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+
+<!-- <div class="row">
+    <div class="col-md-4"> -->
+        <div align="center">
+        <h1> 2nd Factor Authentication</h1> 
+        <h1>Scan the QR Code Below</h1>
+        <p>
+            <img id="generate-qr" src="{{ url_for('auth.generate_qr') }}" alt="QR Code" />
+        </p>
+        
+        <p>
+            <a class="btn btn-dark" style="width: 268px;" href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2" target="_blank">
+                <img src="{{ url_for('static', filename='images/Google_Authenticator_logo.svg')}}" alt="Google Authenticator" style="width: 20px; height: 20px;">
+                Install Google Authenticator
+            </a>
+        </p>
+
+        <p>
+            <a class="btn btn-dark" href="https://play.google.com/store/apps/details?id=com.azure.authenticator" target="_blank">
+                <img src="{{ url_for('static', filename='images/microsoft-authenticator-logo.svg')}}" alt="Microsoft Authenticator" style="width: 20px; height: 20px;">
+                Install Microsoft Authenticator
+            </a>
+        </p>
+        <p>
+            Once scanned, you can <a href="{{ url_for('auth.login') }}">Login</a>
+        </p>
+    </div>
+    </div>
+</div>
+
+
+{% endblock %}
