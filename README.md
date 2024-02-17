@@ -55,7 +55,7 @@ http://localhost:5001/
 
 ## Sample images
 
-![Signup Page Blank](images/1_Sign_up_blank.png "Sign Up Page Blank")
+![Signup Page Blank](images/Sign_up_page.png "Sign Up Page Blank")
 
 ![Signup Page Filled](images/2_Sign_up_filled.png "Sign Up Page Filled")
 
