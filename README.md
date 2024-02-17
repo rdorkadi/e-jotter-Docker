@@ -1,4 +1,4 @@
-# fnote-mfa
+# e-jotter
 
 Minimal Note Taking App with Multi-factor Autentication enabled
 
