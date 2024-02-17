@@ -63,7 +63,7 @@ http://localhost:5001/
 
 ![Login Page](images/Successful_loggedIn_page.png "Successfully Logged In Page")
 
-![Home Page](images/Notes.png "Authentic user's home page containing notes")
+![Home Page](images/Notes_page.png "Authentic user's home page containing notes")
 
 ## Functionalities
 
