@@ -55,15 +55,15 @@ http://localhost:5001/
 
 ## Sample images
 
-![Signup Page Blank](images/Sign_up_page.png "Sign Up Page Blank")
+![Signup Page Blank](images/Sign_up_page.png "Sign Up Page")
 
-![Signup Page Filled](images/2_Sign_up_filled.png "Sign Up Page Filled")
+![Signup Page Filled](images/Login_page.png "Login Page")
 
-![MFA QR Page](images/3_mfa_qr_page.png "MFA QR Code")
+![MFA QR Page](images/MFA_Scan_Page.png "MFA QR Code")
 
-![Login Page](images/4_login.png "Login Page")
+![Login Page](Successful_loggedIn_page.png "Successfully Logged In Page")
 
-![Home Page](images/5_notes_page.png "Authentic user's home page containing notes")
+![Home Page](images/Notes.png "Authentic user's home page containing notes")
 
 ## Functionalities
 
