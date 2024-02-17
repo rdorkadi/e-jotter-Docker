@@ -140,7 +140,7 @@ def generate_qr():
     if 'email' not in session:
         return redirect(url_for('auth.sign_up'))
     email = session['email']
-    email = 'user100@email.com'
+    #email = 'user100@email.com'
     user = User.query.filter_by(email=email).first()
 
     if user is None:
