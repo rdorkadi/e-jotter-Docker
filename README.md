@@ -61,7 +61,7 @@ http://localhost:5001/
 
 ![MFA QR Page](images/MFA_Scan_Page.png "MFA QR Code")
 
-![Login Page](Successful_loggedIn_page.png "Successfully Logged In Page")
+![Login Page](images/Successful_loggedIn_page.png "Successfully Logged In Page")
 
 ![Home Page](images/Notes.png "Authentic user's home page containing notes")
 
