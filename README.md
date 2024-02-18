@@ -2,6 +2,9 @@
 
 Minimal Note Taking App with Multi-factor Autentication enabled
 
+# Application Diagram
+
+![alt text](image-1.png)
 
 
 # Run the app on Docker
