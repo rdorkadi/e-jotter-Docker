@@ -2,9 +2,6 @@
 
 Minimal Note Taking App with Multi-factor Autentication enabled
 
-```
-https://fnote-mfa-p6erx5zvlq-uw.a.run.app/login
-```
 
 
 # Run the app on Docker
@@ -18,13 +15,13 @@ https://fnote-mfa-p6erx5zvlq-uw.a.run.app/login
 2. Run the docker image (on arm64 (ie., Mac M1, M2))
 
 ```
-docker run --name fnote-mfa-cont01 -dit -p 5001:5000 riyadorkadi/e-jotter-amd64:latest
+docker run --name fnote-mfa-cont01 -dit -p 5001:5001 riyadorkadi/e-jotter-amd64:latest
 ```
 
 To run docker image on amd64 or x86_64 (ie., On AWS EC2, Intel etc)
 
 ```
-docker run --name fnote-mfa-cont01 -dit -p 5001:5000 riyadorkadi/e-jotter-amd64:latest
+docker run --name fnote-mfa-cont01 -dit -p 5001:5001 riyadorkadi/e-jotter-amd64:latest
 ```
 
 Check dockerhub for more details: https://hub.docker.com/r/riyadorkadi/e-jotter-amd64
