@@ -4,8 +4,7 @@ Minimal Note Taking App with Multi-factor Autentication enabled
 
 # Application Diagram
 
-![Application](images/e-Jotter v1.0.png)
-
+![alt text](<e-Jotter v1.0.png>)
 
 # Run the app on Docker
 
