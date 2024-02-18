@@ -24,7 +24,7 @@ To run docker image on amd64 or x86_64 (ie., On AWS EC2, Intel etc)
 docker run --name fnote-mfa-cont01 -dit -p 5001:5001 riyadorkadi/e-jotter-amd64:latest
 ```
 
-Check dockerhub for more details: https://hub.docker.com/r/riyadorkadi/fnote-mfa 
+Check dockerhub for more details: https://hub.docker.com/r/riyadorkadi/e-jotter-amd64
 
 3. Open the app in browser
 
